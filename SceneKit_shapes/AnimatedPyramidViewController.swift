@@ -32,12 +32,12 @@ class AnimatedPyramidViewController: UIViewController {
         pyramid.geometry?.firstMaterial?.specular.contents = UIColor.white
         scene.rootNode.addChildNode(pyramid)
         
-        let box = SCNNode()
+        /*let box = SCNNode()
         
         box.geometry = SCNBox(width: 1, height: 1, length: 1, chamferRadius: 0)
         box.position = SCNVector3(0, -0.5, 0)
         box.geometry?.firstMaterial?.diffuse.contents = UIColor.purple
-        pyramid.addChildNode(box)
+        pyramid.addChildNode(box)*/
         
         let floor = SCNNode()
         

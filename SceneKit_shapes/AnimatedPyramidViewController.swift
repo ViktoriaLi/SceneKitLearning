@@ -42,14 +42,21 @@ class AnimatedPyramidViewController: UIViewController {
         let floor = SCNNode()
         
         floor.geometry = SCNFloor()
-        floor.position = SCNVector3(0, -5, 0)
+        floor.position = SCNVector3(0, -1, 0)
         scene.rootNode.addChildNode(floor)
         
+        let cameraNode = SCNNode()
+        cameraNode.camera = SCNCamera()
+        cameraNode.position = SCNVector3(0, 0, 10)
+        scene.rootNode.addChildNode(cameraNode)
+        sceneView.pointOfView = cameraNode
         
         SCNTransaction.begin()
         SCNTransaction.animationDuration = 5.0
-        pyramid.position = SCNVector3(0, 1, -10)
-        pyramid.eulerAngles = SCNVector3(45 *  Float((Double.pi) / 180), 45 *  Float((Double.pi) / 180), 0 *  Float((Double.pi) / 180))
+        //pyramid.position = SCNVector3(0, 1, -10)
+        //pyramid.eulerAngles = SCNVector3(45 *  Float((Double.pi) / 180), 45 *  Float((Double.pi) / 180), 0 *  Float((Double.pi) / 180))
+        cameraNode.position = SCNVector3(0, 5, 5)
+        cameraNode.eulerAngles = SCNVector3(-45 *  Float((Double.pi) / 180), 0 *  Float((Double.pi) / 180), 0 *  Float((Double.pi) / 180))
         
         SCNTransaction.commit()
     }

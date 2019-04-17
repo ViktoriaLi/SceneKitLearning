@@ -15,6 +15,7 @@
 		C1FC12DC22663D73006EB46E /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC12DB22663D72006EB46E /* BoxViewController.swift */; };
 		C1FC12DE22673350006EB46E /* CustomShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC12DD22673350006EB46E /* CustomShapeViewController.swift */; };
 		C1FC12E022673D28006EB46E /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC12DF22673D28006EB46E /* PlanetViewController.swift */; };
+		C1FC12E2226798FA006EB46E /* AnimatedPyramidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC12E1226798FA006EB46E /* AnimatedPyramidViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C1FC12DB22663D72006EB46E /* BoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
 		C1FC12DD22673350006EB46E /* CustomShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeViewController.swift; sourceTree = "<group>"; };
 		C1FC12DF22673D28006EB46E /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		C1FC12E1226798FA006EB46E /* AnimatedPyramidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPyramidViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C1FC12C92266399F006EB46E /* AppDelegate.swift */,
 				C1FC12CB2266399F006EB46E /* ViewController.swift */,
 				C1FC12DB22663D72006EB46E /* BoxViewController.swift */,
+				C1FC12E1226798FA006EB46E /* AnimatedPyramidViewController.swift */,
 				C1FC12CD2266399F006EB46E /* Main.storyboard */,
 				C1FC12DD22673350006EB46E /* CustomShapeViewController.swift */,
 				C1FC12DF22673D28006EB46E /* PlanetViewController.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FC12E2226798FA006EB46E /* AnimatedPyramidViewController.swift in Sources */,
 				C1FC12E022673D28006EB46E /* PlanetViewController.swift in Sources */,
 				C1FC12DC22663D73006EB46E /* BoxViewController.swift in Sources */,
 				C1FC12DE22673350006EB46E /* CustomShapeViewController.swift in Sources */,
